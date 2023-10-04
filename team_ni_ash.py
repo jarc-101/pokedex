@@ -8,6 +8,7 @@ def search_pokemon(name):
   pokemon = response.json()
   add_pokemon(pokemon)
 
+
 def add_pokemon(pokemon):
   Name = f"Name: {pokemon['name'].capitalize()}"
   hp = f"HP: {pokemon['stats'][0]['base_stat']}"
@@ -31,22 +32,17 @@ def get_moves(pokemon):
   moveset = random.sample(moves,4)
   print(f"Moveset: {moveset[0]}, {moveset[1]}, {moveset[2]}, {moveset[3]}\n")
 
-# if __name__ == "__main__":  
-#   search_pokemon(sys.argv[1])
-#   search_pokemon(sys.argv[2])
-#   search_pokemon(sys.argv[3])
-#   search_pokemon(sys.argv[4])
-#   search_pokemon(sys.argv[5])
-#   search_pokemon(sys.argv[6])
-
 if __name__ == "__main__":
   poke_num = 0
   team = {}
   while poke_num != 6:
     poke_name = input("Choose your Pokemon: ").lower()
-    search_pokemon(poke_name)
-    team[poke_name] = None
-    poke_num +=1
+    try:
+      search_pokemon(poke_name)
+      team[poke_name] = None
+      poke_num +=1
+    except:
+      print("Pokemon doesn't exist")
 
 print("Gotta catch em' all")
 print(team)
