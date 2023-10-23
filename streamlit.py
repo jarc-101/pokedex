@@ -54,11 +54,4 @@ try:
 
 except:
   st.write("")
-  
-
-
-
-# if __name__ == "__main__":
-#   search_pokemon(sys.argv[1])
-
 

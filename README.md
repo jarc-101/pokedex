@@ -80,6 +80,10 @@ if __name__ == "__main__":
 
 print("Gotta catch em' all")
 print(team)
-
-
 ```
+
+See full code with comments : [pokedex.py](https://github.com/jarc-101/pokedex/blob/main/six_pokemon.py)
+
+
+### I also created an app using streamlit to explore python more
+Here's the app code[streamlit.py](https://github.com/jarc-101/pokedex/blob/main/streamlit.py)
