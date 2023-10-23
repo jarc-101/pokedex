@@ -41,5 +41,5 @@ See full code with comments : [pokedex.py](https://github.com/jarc-101/pokedex/b
 ### I also created an app using streamlit to explore python more
 Here's the app code: [streamlit.py](https://github.com/jarc-101/pokedex/blob/main/streamlit.py)
 
-![alt text](https://github.com/jarc-101/pokedex/blob/main/image/result_six_pokemon.png)
+![alt text](https://github.com/jarc-101/pokedex/blob/main/image/streamlit_pokedex.png)
 
