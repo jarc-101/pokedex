@@ -1,6 +1,7 @@
 import requests
 import sys
 
+
 def search_pokemon(name):
   response = requests.get(f"https://pokeapi.co/api/v2/pokemon/{name}/")
   pokemon = response.json()
@@ -14,4 +15,3 @@ def print_pokemon(pokemon):
 
 if __name__ == "__main__":
   search_pokemon(sys.argv[1])
-  
