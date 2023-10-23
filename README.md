@@ -86,4 +86,4 @@ See full code with comments : [pokedex.py](https://github.com/jarc-101/pokedex/b
 
 
 ### I also created an app using streamlit to explore python more
-Here's the app code[streamlit.py](https://github.com/jarc-101/pokedex/blob/main/streamlit.py)
+Here's the app code[streamlit.py](https://github.com/jarc-101/pokedex/blob/main/streamlit.py) 
