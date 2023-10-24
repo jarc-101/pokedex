@@ -43,3 +43,5 @@ Here's the app code: [streamlit.py](https://github.com/jarc-101/pokedex/blob/mai
 
 ![alt text](https://github.com/jarc-101/pokedex/blob/main/image/streamlit_pokedex.png)
 
+## Try my APP here !! 
+[pokedex_app](https://pokedex-py.streamlit.app/)
