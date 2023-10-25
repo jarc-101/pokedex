@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-import random
+import random,time
 
 
 @st.cache_data(show_spinner = "Throwing Pokeballs:man-playing-handball:....:red_circle::red_circle:")
@@ -53,5 +53,10 @@ try:
   chosen = search_pokemon(name.lower())
 
 except:
-  st.write("")
+  if len(name) >= 1:
+    st.write("Please input a valid Pokemon name")
+    msg = st.toast("Please input a valid Pokemon name!")
+    time.sleep(1)
+  else:
+    pass
 
